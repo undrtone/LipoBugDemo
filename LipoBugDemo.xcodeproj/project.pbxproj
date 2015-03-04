@@ -1,0 +1,823 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		311E3FB21AA6C5D9001B5E6A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311E3FB11AA6C5D9001B5E6A /* InterfaceController.swift */; };
+		311E3FB41AA6C5D9001B5E6A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 311E3FB31AA6C5D9001B5E6A /* Images.xcassets */; };
+		311E3FB81AA6C5D9001B5E6A /* LipoBugDemo WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 311E3FB71AA6C5D9001B5E6A /* LipoBugDemo WatchKit App.app */; };
+		311E3FC01AA6C5D9001B5E6A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 311E3FBE1AA6C5D9001B5E6A /* Interface.storyboard */; };
+		311E3FC21AA6C5D9001B5E6A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 311E3FC11AA6C5D9001B5E6A /* Images.xcassets */; };
+		311E3FC51AA6C5D9001B5E6A /* LipoBugDemo WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 311E3FAD1AA6C5D9001B5E6A /* LipoBugDemo WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3168FC801AA6C015001400F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3168FC7F1AA6C015001400F8 /* AppDelegate.swift */; };
+		3168FC821AA6C015001400F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3168FC811AA6C015001400F8 /* ViewController.swift */; };
+		3168FC851AA6C015001400F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3168FC831AA6C015001400F8 /* Main.storyboard */; };
+		3168FC871AA6C015001400F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3168FC861AA6C015001400F8 /* Images.xcassets */; };
+		3168FC8A1AA6C015001400F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3168FC881AA6C015001400F8 /* LaunchScreen.xib */; };
+		31FE901F1AA6C9FD00950430 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3168FCA41AA6C270001400F8 /* NotificationCenter.framework */; };
+		31FE90241AA6C9FD00950430 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FE90231AA6C9FD00950430 /* TodayViewController.swift */; };
+		31FE90261AA6C9FD00950430 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31FE90251AA6C9FD00950430 /* MainInterface.storyboard */; };
+		31FE90291AA6C9FD00950430 /* Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 31FE901E1AA6C9FD00950430 /* Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AE803173A0344E5EA5CB6351 /* Pods_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F0C9E52498CC46B50266F39 /* Pods_Extension.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B119AE4E9DBD5049EDA6B55B /* Pods_LipoBugDemo_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E3D3C0BFF3EB9E389DD19C /* Pods_LipoBugDemo_WatchKit_Extension.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		311E3FB91AA6C5D9001B5E6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3168FC721AA6C015001400F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 311E3FB61AA6C5D9001B5E6A;
+			remoteInfo = "LipoBugDemo WatchKit App";
+		};
+		311E3FC31AA6C5D9001B5E6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3168FC721AA6C015001400F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 311E3FAC1AA6C5D9001B5E6A;
+			remoteInfo = "LipoBugDemo WatchKit Extension";
+		};
+		31FE90271AA6C9FD00950430 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3168FC721AA6C015001400F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31FE901D1AA6C9FD00950430;
+			remoteInfo = Extension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3168FCB31AA6C270001400F8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				31FE90291AA6C9FD00950430 /* Extension.appex in Embed App Extensions */,
+				311E3FC51AA6C5D9001B5E6A /* LipoBugDemo WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2C6D2A04CA1DFC7AAAA0E146 /* Pods-LipoBugDemo WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LipoBugDemo WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-LipoBugDemo WatchKit Extension/Pods-LipoBugDemo WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		311E3FAD1AA6C5D9001B5E6A /* LipoBugDemo WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "LipoBugDemo WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		311E3FB01AA6C5D9001B5E6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		311E3FB11AA6C5D9001B5E6A /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		311E3FB31AA6C5D9001B5E6A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		311E3FB71AA6C5D9001B5E6A /* LipoBugDemo WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LipoBugDemo WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		311E3FBD1AA6C5D9001B5E6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		311E3FBF1AA6C5D9001B5E6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		311E3FC11AA6C5D9001B5E6A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3168FC7A1AA6C015001400F8 /* LipoBugDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LipoBugDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3168FC7E1AA6C015001400F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3168FC7F1AA6C015001400F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3168FC811AA6C015001400F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3168FC841AA6C015001400F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3168FC861AA6C015001400F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3168FC891AA6C015001400F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3168FCA41AA6C270001400F8 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		31FE901E1AA6C9FD00950430 /* Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		31FE90221AA6C9FD00950430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31FE90231AA6C9FD00950430 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		31FE90251AA6C9FD00950430 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		40C8A7D441878A2A3DFDD862 /* Pods-LipoBugDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LipoBugDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LipoBugDemo/Pods-LipoBugDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		48C192FFA26E6E6F37AD34E7 /* Pods-Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Extension/Pods-Extension.release.xcconfig"; sourceTree = "<group>"; };
+		77A97344DDF0A6A4DD493E65 /* Pods-Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Extension/Pods-Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		8ABE0B9174E3478E22031613 /* Pods-LipoBugDemo WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LipoBugDemo WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LipoBugDemo WatchKit Extension/Pods-LipoBugDemo WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		8F0C9E52498CC46B50266F39 /* Pods_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		960CC8F5D09E765544EBE278 /* Pods-LipoBugDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LipoBugDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LipoBugDemo/Pods-LipoBugDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A3E3D3C0BFF3EB9E389DD19C /* Pods_LipoBugDemo_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LipoBugDemo_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B887BA7DE6DD20C9F52DE128 /* Pods_LipoBugDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LipoBugDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		311E3FAA1AA6C5D9001B5E6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B119AE4E9DBD5049EDA6B55B /* Pods_LipoBugDemo_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3168FC771AA6C015001400F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FE901B1AA6C9FD00950430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FE901F1AA6C9FD00950430 /* NotificationCenter.framework in Frameworks */,
+				AE803173A0344E5EA5CB6351 /* Pods_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		311E3FAE1AA6C5D9001B5E6A /* LipoBugDemo WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				311E3FB11AA6C5D9001B5E6A /* InterfaceController.swift */,
+				311E3FB31AA6C5D9001B5E6A /* Images.xcassets */,
+				311E3FAF1AA6C5D9001B5E6A /* Supporting Files */,
+			);
+			path = "LipoBugDemo WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		311E3FAF1AA6C5D9001B5E6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				311E3FB01AA6C5D9001B5E6A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		311E3FBB1AA6C5D9001B5E6A /* LipoBugDemo WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				311E3FBE1AA6C5D9001B5E6A /* Interface.storyboard */,
+				311E3FC11AA6C5D9001B5E6A /* Images.xcassets */,
+				311E3FBC1AA6C5D9001B5E6A /* Supporting Files */,
+			);
+			path = "LipoBugDemo WatchKit App";
+			sourceTree = "<group>";
+		};
+		311E3FBC1AA6C5D9001B5E6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				311E3FBD1AA6C5D9001B5E6A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3168FC711AA6C015001400F8 = {
+			isa = PBXGroup;
+			children = (
+				3168FC7C1AA6C015001400F8 /* LipoBugDemo */,
+				311E3FAE1AA6C5D9001B5E6A /* LipoBugDemo WatchKit Extension */,
+				311E3FBB1AA6C5D9001B5E6A /* LipoBugDemo WatchKit App */,
+				31FE90201AA6C9FD00950430 /* Extension */,
+				3168FC7B1AA6C015001400F8 /* Products */,
+				356AF2FDAF622639D31418C6 /* Pods */,
+				8ADC53D84B4C0098CA67A70A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3168FC7B1AA6C015001400F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3168FC7A1AA6C015001400F8 /* LipoBugDemo.app */,
+				311E3FAD1AA6C5D9001B5E6A /* LipoBugDemo WatchKit Extension.appex */,
+				311E3FB71AA6C5D9001B5E6A /* LipoBugDemo WatchKit App.app */,
+				31FE901E1AA6C9FD00950430 /* Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3168FC7C1AA6C015001400F8 /* LipoBugDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3168FC7F1AA6C015001400F8 /* AppDelegate.swift */,
+				3168FC811AA6C015001400F8 /* ViewController.swift */,
+				3168FC831AA6C015001400F8 /* Main.storyboard */,
+				3168FC861AA6C015001400F8 /* Images.xcassets */,
+				3168FC881AA6C015001400F8 /* LaunchScreen.xib */,
+				3168FC7D1AA6C015001400F8 /* Supporting Files */,
+			);
+			path = LipoBugDemo;
+			sourceTree = "<group>";
+		};
+		3168FC7D1AA6C015001400F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3168FC7E1AA6C015001400F8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31FE90201AA6C9FD00950430 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				31FE90231AA6C9FD00950430 /* TodayViewController.swift */,
+				31FE90251AA6C9FD00950430 /* MainInterface.storyboard */,
+				31FE90211AA6C9FD00950430 /* Supporting Files */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		31FE90211AA6C9FD00950430 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31FE90221AA6C9FD00950430 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		356AF2FDAF622639D31418C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40C8A7D441878A2A3DFDD862 /* Pods-LipoBugDemo.debug.xcconfig */,
+				960CC8F5D09E765544EBE278 /* Pods-LipoBugDemo.release.xcconfig */,
+				77A97344DDF0A6A4DD493E65 /* Pods-Extension.debug.xcconfig */,
+				48C192FFA26E6E6F37AD34E7 /* Pods-Extension.release.xcconfig */,
+				8ABE0B9174E3478E22031613 /* Pods-LipoBugDemo WatchKit Extension.debug.xcconfig */,
+				2C6D2A04CA1DFC7AAAA0E146 /* Pods-LipoBugDemo WatchKit Extension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8ADC53D84B4C0098CA67A70A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B887BA7DE6DD20C9F52DE128 /* Pods_LipoBugDemo.framework */,
+				3168FCA41AA6C270001400F8 /* NotificationCenter.framework */,
+				8F0C9E52498CC46B50266F39 /* Pods_Extension.framework */,
+				A3E3D3C0BFF3EB9E389DD19C /* Pods_LipoBugDemo_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		311E3FAC1AA6C5D9001B5E6A /* LipoBugDemo WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 311E3FCB1AA6C5D9001B5E6A /* Build configuration list for PBXNativeTarget "LipoBugDemo WatchKit Extension" */;
+			buildPhases = (
+				280299B9E726D0FFFC2DAF08 /* Check Pods Manifest.lock */,
+				311E3FA91AA6C5D9001B5E6A /* Sources */,
+				311E3FAA1AA6C5D9001B5E6A /* Frameworks */,
+				311E3FAB1AA6C5D9001B5E6A /* Resources */,
+				1824DF53EF690DBDD60846E1 /* Embed Pods Frameworks */,
+				495BD5C32D490A567C14D366 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				311E3FBA1AA6C5D9001B5E6A /* PBXTargetDependency */,
+			);
+			name = "LipoBugDemo WatchKit Extension";
+			productName = "LipoBugDemo WatchKit Extension";
+			productReference = 311E3FAD1AA6C5D9001B5E6A /* LipoBugDemo WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		311E3FB61AA6C5D9001B5E6A /* LipoBugDemo WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 311E3FCA1AA6C5D9001B5E6A /* Build configuration list for PBXNativeTarget "LipoBugDemo WatchKit App" */;
+			buildPhases = (
+				311E3FB51AA6C5D9001B5E6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LipoBugDemo WatchKit App";
+			productName = "LipoBugDemo WatchKit App";
+			productReference = 311E3FB71AA6C5D9001B5E6A /* LipoBugDemo WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+		3168FC791AA6C015001400F8 /* LipoBugDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3168FC991AA6C015001400F8 /* Build configuration list for PBXNativeTarget "LipoBugDemo" */;
+			buildPhases = (
+				3168FC761AA6C015001400F8 /* Sources */,
+				3168FC771AA6C015001400F8 /* Frameworks */,
+				3168FC781AA6C015001400F8 /* Resources */,
+				3168FCB31AA6C270001400F8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				311E3FC41AA6C5D9001B5E6A /* PBXTargetDependency */,
+				31FE90281AA6C9FD00950430 /* PBXTargetDependency */,
+			);
+			name = LipoBugDemo;
+			productName = LipoBugDemo;
+			productReference = 3168FC7A1AA6C015001400F8 /* LipoBugDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31FE901D1AA6C9FD00950430 /* Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31FE902C1AA6C9FE00950430 /* Build configuration list for PBXNativeTarget "Extension" */;
+			buildPhases = (
+				DAEABCC8B3A7F48BBF0162C8 /* Check Pods Manifest.lock */,
+				31FE901A1AA6C9FD00950430 /* Sources */,
+				31FE901B1AA6C9FD00950430 /* Frameworks */,
+				31FE901C1AA6C9FD00950430 /* Resources */,
+				9AFED4DB53350AFCC5EAF592 /* Embed Pods Frameworks */,
+				7C501E690FC6099EE629E807 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Extension;
+			productName = Extension;
+			productReference = 31FE901E1AA6C9FD00950430 /* Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3168FC721AA6C015001400F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = XYZ;
+				TargetAttributes = {
+					311E3FAC1AA6C5D9001B5E6A = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 3N4GAG6QXC;
+					};
+					311E3FB61AA6C5D9001B5E6A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					3168FC791AA6C015001400F8 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 3N4GAG6QXC;
+					};
+					31FE901D1AA6C9FD00950430 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 3N4GAG6QXC;
+					};
+				};
+			};
+			buildConfigurationList = 3168FC751AA6C015001400F8 /* Build configuration list for PBXProject "LipoBugDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3168FC711AA6C015001400F8;
+			productRefGroup = 3168FC7B1AA6C015001400F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3168FC791AA6C015001400F8 /* LipoBugDemo */,
+				311E3FAC1AA6C5D9001B5E6A /* LipoBugDemo WatchKit Extension */,
+				311E3FB61AA6C5D9001B5E6A /* LipoBugDemo WatchKit App */,
+				31FE901D1AA6C9FD00950430 /* Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		311E3FAB1AA6C5D9001B5E6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311E3FB81AA6C5D9001B5E6A /* LipoBugDemo WatchKit App.app in Resources */,
+				311E3FB41AA6C5D9001B5E6A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311E3FB51AA6C5D9001B5E6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311E3FC01AA6C5D9001B5E6A /* Interface.storyboard in Resources */,
+				311E3FC21AA6C5D9001B5E6A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3168FC781AA6C015001400F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3168FC851AA6C015001400F8 /* Main.storyboard in Resources */,
+				3168FC8A1AA6C015001400F8 /* LaunchScreen.xib in Resources */,
+				3168FC871AA6C015001400F8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FE901C1AA6C9FD00950430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FE90261AA6C9FD00950430 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1824DF53EF690DBDD60846E1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LipoBugDemo WatchKit Extension/Pods-LipoBugDemo WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		280299B9E726D0FFFC2DAF08 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		495BD5C32D490A567C14D366 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LipoBugDemo WatchKit Extension/Pods-LipoBugDemo WatchKit Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C501E690FC6099EE629E807 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Extension/Pods-Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AFED4DB53350AFCC5EAF592 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Extension/Pods-Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAEABCC8B3A7F48BBF0162C8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		311E3FA91AA6C5D9001B5E6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311E3FB21AA6C5D9001B5E6A /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3168FC761AA6C015001400F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3168FC821AA6C015001400F8 /* ViewController.swift in Sources */,
+				3168FC801AA6C015001400F8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FE901A1AA6C9FD00950430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FE90241AA6C9FD00950430 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		311E3FBA1AA6C5D9001B5E6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 311E3FB61AA6C5D9001B5E6A /* LipoBugDemo WatchKit App */;
+			targetProxy = 311E3FB91AA6C5D9001B5E6A /* PBXContainerItemProxy */;
+		};
+		311E3FC41AA6C5D9001B5E6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 311E3FAC1AA6C5D9001B5E6A /* LipoBugDemo WatchKit Extension */;
+			targetProxy = 311E3FC31AA6C5D9001B5E6A /* PBXContainerItemProxy */;
+		};
+		31FE90281AA6C9FD00950430 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31FE901D1AA6C9FD00950430 /* Extension */;
+			targetProxy = 31FE90271AA6C9FD00950430 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		311E3FBE1AA6C5D9001B5E6A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				311E3FBF1AA6C5D9001B5E6A /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		3168FC831AA6C015001400F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3168FC841AA6C015001400F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3168FC881AA6C015001400F8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3168FC891AA6C015001400F8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		311E3FC61AA6C5D9001B5E6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ABE0B9174E3478E22031613 /* Pods-LipoBugDemo WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LipoBugDemo WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		311E3FC71AA6C5D9001B5E6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C6D2A04CA1DFC7AAAA0E146 /* Pods-LipoBugDemo WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "LipoBugDemo WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		311E3FC81AA6C5D9001B5E6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = LipoBugDemo_WatchKit_Extension;
+				INFOPLIST_FILE = "LipoBugDemo WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		311E3FC91AA6C5D9001B5E6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = LipoBugDemo_WatchKit_Extension;
+				INFOPLIST_FILE = "LipoBugDemo WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		3168FC971AA6C015001400F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3168FC981AA6C015001400F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3168FC9A1AA6C015001400F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = LipoBugDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3168FC9B1AA6C015001400F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = LipoBugDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		31FE902A1AA6C9FE00950430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77A97344DDF0A6A4DD493E65 /* Pods-Extension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Extension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		31FE902B1AA6C9FE00950430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48C192FFA26E6E6F37AD34E7 /* Pods-Extension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Extension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		311E3FCA1AA6C5D9001B5E6A /* Build configuration list for PBXNativeTarget "LipoBugDemo WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				311E3FC81AA6C5D9001B5E6A /* Debug */,
+				311E3FC91AA6C5D9001B5E6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		311E3FCB1AA6C5D9001B5E6A /* Build configuration list for PBXNativeTarget "LipoBugDemo WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				311E3FC61AA6C5D9001B5E6A /* Debug */,
+				311E3FC71AA6C5D9001B5E6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3168FC751AA6C015001400F8 /* Build configuration list for PBXProject "LipoBugDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3168FC971AA6C015001400F8 /* Debug */,
+				3168FC981AA6C015001400F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3168FC991AA6C015001400F8 /* Build configuration list for PBXNativeTarget "LipoBugDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3168FC9A1AA6C015001400F8 /* Debug */,
+				3168FC9B1AA6C015001400F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31FE902C1AA6C9FE00950430 /* Build configuration list for PBXNativeTarget "Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31FE902A1AA6C9FE00950430 /* Debug */,
+				31FE902B1AA6C9FE00950430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3168FC721AA6C015001400F8 /* Project object */;
+}

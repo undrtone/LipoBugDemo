@@ -1,0 +1,12 @@
+{
+  "name": "Demo",
+  "version": "1.0.0",
+  "summary": "Demo Library",
+  "source_files": "*.swift",
+  "public_header_files": "",
+  "dependencies": {
+    "Alamofire": [
+
+    ]
+  }
+}

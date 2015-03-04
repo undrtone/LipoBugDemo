@@ -1,0 +1,17 @@
+PODS:
+  - Alamofire (1.1.4)
+  - Demo (1.0.0):
+    - Alamofire
+
+DEPENDENCIES:
+  - Demo (from `Demo`)
+
+EXTERNAL SOURCES:
+  Demo:
+    :path: Demo
+
+SPEC CHECKSUMS:
+  Alamofire: 524225da382071ee3e6d0badd0ee4b4dc36740de
+  Demo: f84910cadd8345cf12a5d52b1166c2a2f4b69659
+
+COCOAPODS: 0.36.0.rc.1

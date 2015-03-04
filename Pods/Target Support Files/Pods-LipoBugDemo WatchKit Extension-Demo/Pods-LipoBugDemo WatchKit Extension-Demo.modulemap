@@ -1,0 +1,6 @@
+framework module Demo {
+  umbrella header "Pods-LipoBugDemo WatchKit Extension-Demo-umbrella.h"
+
+  export *
+  module * { export * }
+}
