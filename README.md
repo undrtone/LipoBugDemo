@@ -3,7 +3,7 @@ Debug builds run as expected (in both the simulator and on a device).  However, 
 	* CocoaPods 0.36.0.rc.1
 	* Xcode 6.2 beta 5 with WatchKit (6C121)
 
-The project occurs with Swift frameworks (use_frameworks!) when two or more targets include the same local CocoaPod, with dependencies.
+The problem occurs with Swift frameworks (use_frameworks!) when two or more targets include the same local CocoaPod, with dependencies.
 
 ```
 CodeSign /Users/mjh/Library/Developer/Xcode/DerivedData/LipoBugDemo-falqorsccjdaywgavbgwtxtrierf/Build/Intermediates/ArchiveIntermediates/LipoBugDemo/IntermediateBuildFilesPath/UninstalledProducts/Alamofire.framework
@@ -13,5 +13,8 @@ CodeSign /Users/mjh/Library/Developer/Xcode/DerivedData/LipoBugDemo-falqorsccjda
     
 Signing Identity:     "iOS Development: XXXX XXXX (YYYYYYYYYY)"
 
-    /usr/bin/codesign --force --sign 175AE1EE7F6941CFB036640603F6850A5A92376D /Users/mjh/Library/Developer/Xcode/DerivedData/LipoBugDemo-falqorsccjdaywgavbgwtxtrierf/Build/Intermediates/ArchiveIntermediates/LipoBugDemo/IntermediateBuildFilesPath/UninstalledProducts/Alamofire.framework
+    /usr/bin/codesign --force --sign XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX /Users/mjh/Library/Developer/Xcode/DerivedData/LipoBugDemo-falqorsccjdaywgavbgwtxtrierf/Build/Intermediates/ArchiveIntermediates/LipoBugDemo/IntermediateBuildFilesPath/UninstalledProducts/Alamofire.framework
+
+/Users/mjh/Library/Developer/Xcode/DerivedData/LipoBugDemo-falqorsccjdaywgavbgwtxtrierf/Build/Intermediates/ArchiveIntermediates/LipoBugDemo/IntermediateBuildFilesPath/UninstalledProducts/Alamofire.framework: invalid or unsupported format for signature
+Command /usr/bin/codesign failed with exit code 1
 '''
