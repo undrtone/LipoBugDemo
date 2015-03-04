@@ -1,9 +1,9 @@
-Debug builds run as expected (in both the simulator and on a device).  However, a CodeSign error is shown when creating Release builds (Product -> Archive), using the following:
+Debug builds run as expected (in both the simulator and on a device).  However, a CodeSign error is shown when creating Release builds (Archive), using the following:
 
 	* CocoaPods 0.36.0.rc.1
 	* Xcode 6.2 beta 5 with WatchKit (6C121)
 
-The problem occurs with Swift frameworks (use_frameworks!) when two or more targets include the same local CocoaPod, with dependencies.
+The problem seems to occur with Swift frameworks (`use_frameworks!`) when two or more targets include the same CocoaPod with dependencies.
 
 ```
 CodeSign /Users/mjh/Library/Developer/Xcode/DerivedData/LipoBugDemo-falqorsccjdaywgavbgwtxtrierf/Build/Intermediates/ArchiveIntermediates/LipoBugDemo/IntermediateBuildFilesPath/UninstalledProducts/Alamofire.framework
